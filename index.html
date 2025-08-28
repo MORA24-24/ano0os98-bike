@@ -44,17 +44,34 @@
       margin-bottom: 30px;
     }
     .btn {
-      background-color: #e60000;
+      display: block;
+      margin: 10px auto;
+      width: 220px;
+      text-align: center;
       color: white;
       padding: 12px 24px;
       border: none;
       border-radius: 30px;
       text-decoration: none;
       font-size: 18px;
-      transition: background-color 0.3s;
+      font-weight: bold;
+      transition: transform 0.2s, opacity 0.3s;
     }
     .btn:hover {
-      background-color: #ff1a1a;
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    /* Instagram */
+    .btn-instagram {
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    }
+    /* TikTok */
+    .btn-tiktok {
+      background: #000000;
+    }
+    /* Facebook */
+    .btn-facebook {
+      background: #1877f2;
     }
   </style>
 </head>
@@ -63,10 +80,18 @@
   <div class="content">
     <div class="message">
       ما تيجي أعدّى عليك ؟<br />
-       
     </div>
-    <a class="btn" href="https://www.instagram.com/ano0os.98?igsh=cHhibDZuaXgzcHNw" target="_blank">
-        follow me 
+    <!-- Instagram -->
+    <a class="btn btn-instagram" href="https://www.instagram.com/ano0os.98?igsh=cHhibDZuaXgzcHNw" target="_blank">
+        Instagram
+    </a>
+    <!-- TikTok -->
+    <a class="btn btn-tiktok" href="https://www.tiktok.com/@ano0os.98?_t=ZS-8zFt0A2iIz2&_r=1" target="_blank">
+        TikTok
+    </a>
+    <!-- Facebook -->
+    <a class="btn btn-facebook" href="https://www.facebook.com/share/1B8vZdxRZ7/" target="_blank">
+        Facebook
     </a>
   </div>
 </body>
